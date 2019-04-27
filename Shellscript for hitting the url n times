@@ -4,3 +4,13 @@ do
   curl http://<url>/
   echo "\n"
 done
+
+
+
+
+
+##script2:
+#command line script to hit the url 100 times
+
+
+for i in `seq 1 100`; do curl 'http://<url>'; done
