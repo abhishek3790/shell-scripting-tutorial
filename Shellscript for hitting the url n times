@@ -1,0 +1,6 @@
+## hits the url 1000 times
+for var in {1..1000} 
+do
+  curl http://<url>/
+  echo "\n"
+done
